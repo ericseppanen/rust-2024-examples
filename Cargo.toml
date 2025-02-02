@@ -1,0 +1,34 @@
+[package]
+name = "rust2024"
+version = "0.1.0"
+edition = "2021"
+
+[lints.rust]
+
+# Uncomment to see a warning about changes in if-let temporary variable scope.
+# if-let-rescope = "warn"
+
+# Uncomment to see warnings about formerly safe functions that are unsafe in the 2024 edition.
+# deprecated-safe-2024 = "warn"
+
+# Uncomment to see warnings about tail expression drop order changes.
+# tail-expr-drop-order = "warn"
+
+# Uncomment to see warnings about missing unsafe blocks inside unsafe fns
+# unsafe-op-in-unsafe-fn = "warn"
+
+# Uncomment to see warnings about the new `gen` keyword.
+# keyword-idents-2024 =  "warn"
+
+# Uncomment to see warnings about patterns that are not allowed in rust 2024.
+# rust-2024-incompatible-pat = "warn"
+
+# Uncomment to see warnings about macro_rules expr changes.
+# edition-2024-expr-fragment-specifier = "warn"
+
+# Uncomment to see warnings about RPIT capture rules.
+# impl-trait-overcaptures = "warn"
+
+[dependencies]
+libc = "0.2.169"
+rand = "0.8.5"
