@@ -5,6 +5,8 @@ This repository contains examples of Rust code that will be affected by an upgra
 
 The examples and lints work on rust 2021, but a beta or nightly compiler will be needed if you actually want to try the 2024 edition before the 1.85 toolchain is released on February 20, 2025.
 
+I assembled these examples while writing the article [Updating a large codebase to Rust 2024](https://codeandbitters.com/rust-2024-upgrade/).
+
 ### How to see the edition changes
 
 - Enable one or more of the lints in `Cargo.toml`.
