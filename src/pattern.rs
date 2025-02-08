@@ -15,5 +15,5 @@ impl Name {
 pub type PersonRef<'a> = (&'a str, &'a u32);
 
 pub fn find_oldest(people: Vec<PersonRef<'_>>) -> PersonRef<'_> {
-    *people.iter().max_by_key(|(_, &age)| age).unwrap()
+    people.into_iter().max_by_key(|(_, &age)| age).unwrap()
 }
